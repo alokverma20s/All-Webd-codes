@@ -1,0 +1,41 @@
+/* Naviation */
+#navbar{
+    flex-direction: column;
+}
+
+/* home */
+#home1{
+    margin-top: 50px;
+    font-size: 46px;
+}
+
+#home{
+    height: 220px;
+}
+#home::before{
+    height: 570px;
+}
+
+/* services */
+#services{
+    flex-direction: column;
+
+}
+#our-services{
+    margin-top: 200px;
+}
+#services .box{
+}
+
+/* clients */
+#clients{
+    flex-wrap: wrap;
+}
+#clients img{
+    height: 66px;
+    /* padding: 2px 6px; */
+}
+
+/* contacts */
+
+/* footer */

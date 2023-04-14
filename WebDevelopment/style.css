@@ -1,0 +1,27 @@
+body {
+    background-color: #eaf6f6;
+    font-family: Bogart,Recoleta,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+hr {
+    background-color: #eaf6f6;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 0.4em;
+    height: 0px;
+    width: 5%;
+}
+h1{
+    color: #66bfbf;
+}
+h2{
+    color: #66bfbf;
+}
+h1{
+    color: #66bfbf;
+}
+
+/* img{
+    height: 10px;
+} */

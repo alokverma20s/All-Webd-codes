@@ -1,0 +1,17 @@
+body{
+    text-align:center;
+}
+
+.big-title{
+    font-size: 10rem;
+    color: yellowgreen;
+}
+.margin-50{
+    margin: 50px;
+}
+button{
+    margin-top: 25%;
+    padding: 1% 5%;
+    font-size: 2rem;
+    border-radius: 20px;
+}

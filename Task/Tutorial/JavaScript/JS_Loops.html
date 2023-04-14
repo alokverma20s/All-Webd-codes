@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops in JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>This is Tutorial for Loops in JavaScript</h3>
+    </div>
+</body>
+<script>
+    let friends = ["Alok", "Abhay", "Vishal", "Anant", "Abhishek"];
+    // for (let index = 0; index < friends.length; index++) {
+    //     console.log("Hello Friend " + friends[index]);
+    // }
+
+    // friends.forEach(function f(element) {
+    //     console.log("Hello friend "+ element+" to modern JavaScript ");
+    // });
+
+    // for (element of friends){
+    //     console.log("Hello friend, "+ element+" to modern JavaScript again");
+    // }
+
+    let student ={
+        name:"Alok",
+        college:"NITJ",
+        batch:"IT"
+    }
+
+    for(key in student){
+        console.log(`The ${key} of student is ${student[key]}`);
+    }
+</script>
+
+</html>

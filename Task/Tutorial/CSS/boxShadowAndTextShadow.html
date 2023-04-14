@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .container{
+            display:flex;
+
+        }
+        .card{
+            padding: 23px 12px;
+            /* border: 2px solid red; */
+            margin: 23px 12px;
+            background-color: rgb(231, 175, 102);
+            /* box-shadow: offset-x offset-y color; */
+            /* box-shadow: offset-x offset-y blur-radius color; */
+            /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+
+            /* box-shadow: 10px 13px green; */
+            /* box-shadow: -10px -13px green; */
+            /* box-shadow: 7px -5px 10px green; */
+            /* box-shadow: 7px -5px 10px  34px green; */
+
+
+            /* box-shadow: -5px -5px 10px 7px rgba(0, 164, 0, 0.5); */
+
+            box-shadow: inset 3px 4px;
+            box-shadow: 5px 5px rgb(255, 60, 0) , 10px 10px white ,15px 15px green;
+        }
+        .card h2{
+            text-shadow: -2px -2px 2px #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>This is C++ Course</h2>
+            <p>I have started C++  course which does not maen that we will stop this course. We will continue this course to completion. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione nihil cumque ipsum, perferendis minus dolor aut ea eaque nam minima quia expedita saepe fugiat! Expedita et consequuntur tempore dicta hic error temporibus similique?</p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>This is the html Course</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione nihil cumque ipsum, perferendis minus dolor aut ea eaque nam minima quia expedita saepe fugiat! Expedita et consequuntur tempore dicta hic error temporibus similique?</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>Card3</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione nihil cumque ipsum, perferendis minus dolor aut ea eaque nam minima quia expedita saepe fugiat! Expedita et consequuntur tempore dicta hic error temporibus similique?</p>
+        </div>
+    </div>
+</body>
+</html>

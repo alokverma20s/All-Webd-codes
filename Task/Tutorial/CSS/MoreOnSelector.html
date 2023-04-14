@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More on selector</title>
+    <style>
+        h1{
+            background-color: red;
+            color: black;
+            font-weight: bold;
+        }
+
+        /* If p is contained by any li which is contained by div */
+        /* div li p{
+            background-color: green;
+            color: yellow;
+            font-weight: bold;
+        } */
+
+        /* If p is right inside div this CSS will be applied */
+        /* div> p{
+            background-color: green;
+            color: yellow;
+            font-weight: bold;
+        } */
+
+        /* If  p is right after div i.e. p is the next sibling of div */
+        /* div + p{
+            color: white;
+            background-color: rgb(228, 146, 146);
+        } */
+        .test{
+            border:3px solid red;
+            height: 500px;
+            background-color: rgb(198, 198, 236);
+            /* background: url(/Gmail.png); */
+            /* background-repeat:no-repeat; */
+
+        }
+        .test :hover{
+            color: rgb(140, 140, 230);
+        }
+    </style>
+</head>
+<body>
+    <h1>This is the more on selector</h1>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li class="item"><p>This is the another paragraph inside li</p></li>
+                <li>This will not get affected</li>
+                <p>This is a paragraph inside ul</p>
+            </ul>
+            <p>
+                This is a paragraph
+            </p>
+        </div>
+        <p>This is another paragraph</p>
+    </div>
+    <div class="test">
+        <p>This is the outerMost paragraph</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    background-color: aqua;
+}
+div{
+    display: inline-block;
+    margin: 19px 39px;
+    padding: 3px 30px;
+}

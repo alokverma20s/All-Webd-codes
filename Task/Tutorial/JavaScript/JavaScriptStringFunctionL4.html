@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script String Function</title>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus numquam magni optio quod quo vero sequi provident placeat delectus cum, veniam aliquid laborum tenetur magnam quis asperiores, saepe, consequuntur architecto. Temporibus ipsum repudiandae ullam, at sed nihil atque! Ipsa illum eos at dolores deleniti doloremque?</p>
+    <script>
+        var str= "This is a string";
+        console.log(str);
+
+        //Its gives the first Occurance
+        var position = str.indexOf("is");
+        console.log(position);
+        //Its gives last Occurance
+        var position = str.lastIndexOf("is");
+        console.log(position);
+
+        // Substring from a string
+        // var substr= str.slice(1 ,6);
+        // console.log(substr);
+        // var substr= str.substring(1 ,6);
+        // console.log(substr);
+        // var substr= str.substr(1 ,6);
+        // console.log(substr);
+
+        // var replaced =str.replace('a string','Alok');
+        // console.log(replaced);
+        // console.log(str);
+
+        // console.log(str.toUpperCase());
+        // console.log(str.toLowerCase());
+
+        // var newstring= str.concat(' New String');
+        // console.log(newstring);
+
+        // var strWithWhiteSpaces = "       This  contains    WhiteSpaces     ";
+        // console.log(strWithWhiteSpaces);
+        // console.log(strWithWhiteSpaces.trim());
+
+
+        var char2 = str.charAt(2);
+        console.log(char2);
+        var CharCode = str.charCodeAt(2);
+        console.log(CharCode);
+
+        console.log(str[3]);
+    </script>
+</body>
+</html>

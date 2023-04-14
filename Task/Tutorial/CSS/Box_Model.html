@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-family: 'Ubuntu', sans-serif;
+            background-color: #e6bcdf;
+        }
+        .container{
+            background-color: rgb(210, 241, 163);
+            border: 3px solid #191be9;
+            /* We can set padding from top bottom left and right */
+            /* padding-top: 9px;
+            padding-bottom: 9px; */
+            /* padding-left: 9px;
+            padding-right: 9px; */
+
+            /* padding: 23px 56px 6px 78px; */
+            padding: 34px 19px;
+            margin: 14px 19px;
+            border-radius: 23px;
+            width: 550px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam omnis quae quam iste animi, culpa cum alias nihil voluptatum sapiente deserunt tenetur temporibus? Neque quia optio perspiciatis voluptates quae velit facere, dolorum adipisci.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam omnis quae quam iste animi, culpa cum alias nihil voluptatum sapiente deserunt tenetur temporibus? Neque quia optio perspiciatis voluptates quae velit facere, dolorum adipisci.</p>
+    </div>
+
+    <div class="container">
+        <h3>This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aperiam omnis quae quam iste animi, culpa cum alias nihil voluptatum sapiente deserunt tenetur temporibus? Neque quia optio perspiciatis voluptates quae velit facere, dolorum adipisci.</p>
+    </div>
+</body>
+</html>

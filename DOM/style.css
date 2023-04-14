@@ -1,0 +1,11 @@
+body{
+    font-size: 1.5em;
+}
+.invisible{
+    display: none;
+}
+.huge{
+    font-size: 10rem;
+    color: red;
+    font-weight: bold;
+}

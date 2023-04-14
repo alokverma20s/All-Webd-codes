@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Object</title>
+</head>
+<body>
+    <div class="container">
+        <h1>This is Math Object Tutorial</h1>
+
+    </div>
+    <script>
+    // Printing the maths Object 
+
+        let m = Math;
+        console.log(m);
+
+        // Printing the Constants from Maths Object.
+        console.log("the value of Math.E is ", Math.E);
+        console.log("the value of Math.PI is ", Math.PI);
+        console.log("the value of MathLN2 is ", Math.LN2);
+        console.log("the value of Math.SQRT1_2 is ", Math.SQRT1_2);
+        console.log("the value of Math.SQRT2 is ", Math.SQRT2);
+
+        // Printing the Functions from Maths Object
+
+        let a = 34.5345;
+        let b= 84;
+
+        console.log("The value of a and b is  ", a,b);
+        console.log("The value of a and b rounded is  ", Math.round(a),b);
+
+        console.log(" 3 raised to the power of 2 is ", Math.pow(3,2));
+        console.log("The square root of the 36 is ",Math.sqrt(36));
+        
+        // Ceil and Floor
+        console.log("The 5.8 rounded up to nearest integer is  ",Math.ceil(5.8));
+        console.log("The 5.8 rounded down to nearest integer is  ",Math.floor(5.8));
+
+        console.log("The 5.8 rounded up to nearest integer is  ",Math.ceil(5.4));
+        console.log("The 5.8 rounded down to nearest integer is  ",Math.floor(5.4));
+
+        // Abs Function
+        console.log("Absolute value of 5.66 is ", Math.abs(5.66));
+        console.log("Absolute value of -5.66 is ", Math.abs(-5.66));
+        console.log("The Value of sin(pi) is ",Math.sin(Math.PI/2));
+        console.log("The Value of cos(pi) is ",Math.cos(Math.PI));
+        console.log("The Value of tan(pi/2) is ",Math.tan(Math.PI/2));
+
+
+        // Min and Max Function
+
+        console.log("Minimum value of  4, 6 ,7, 89,8",Math.min(4, 6 ,7, 89,8));
+        console.log("Maximum value of  4, 6, 7, 89,8",Math.max(4, 6 ,7, 89,8));
+
+        // Generating the Random number
+        let r = Math.random();
+        // Random number b/w (a, b) = a + (b-a)* Math.random();
+        let r1_100 = 1+(6-1)*Math.random();
+        console.log("The Random number is ",Math.round(r1_100));
+    </script>
+</body>
+</html>

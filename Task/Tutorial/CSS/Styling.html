@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid purple;
+            margin: 33px auto;
+            padding: 10px 10px;
+            background-color: rgb(241, 222, 184);
+            border-radius: 3px;
+        }
+
+        .item {
+            border: 2px solid gray;
+            margin: 12px 3px;
+            padding: 2px 3px;
+            background: rgb(230, 222, 222);
+        }
+
+        #fruits {
+            float: left;
+            width: 49%;
+        }
+
+        #computer {
+            float: right;
+            width: 49%;
+        }
+
+        #stationary {
+            /* float: left; */
+            clear: both;
+            width: 99.4%;
+        }
+
+        p,
+        h3 {
+            /* text-align: left;
+            text-align: right;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            text-align: center;
+            border: 2px rgb(39, 21, 21) solid;
+            width: 325px;
+            border-radius: 10px;
+            margin: auto;
+            background-color: rgb(202, 170, 231);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my store</h1>
+        <div id="fruits" class="item">
+            <h3>Fruits</h3>
+            <p id="friutsPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quis
+                magnam. Est magnam aperiam eos dolores dolore, libero totam ipsam soluta tempore, recusandae fugiat,
+                architecto eius sunt animi? Molestiae, iusto! Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Porro fuga saepe quia voluptate, maxime atque! Corporis placeat inventore natus ea obcaecati atque!
+                Molestias omnis expedita ducimus exercitationem ipsa cupiditate dolor cum autem quasi deleniti.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>Computer</h3>
+            <p id="computerPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quis
+                magnam. Est magnam aperiam eos dolores dolore, libero totam ipsam soluta tempore, recusandae fugiat,
+                architecto eius sunt animi? Molestiae, iusto! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Omnis optio, fugiat facere, veniam officiis quam a provident voluptate, soluta adipisci aliquam. Ipsam
+                odio possimus obcaecati nesciunt doloribus excepturi consequuntur nobis exercitationem fugiat? Quasi,
+                harum?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>Stationary</h3>
+            <p id="stationaryPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quis
+                magnam. Est magnam aperiam eos dolores dolore, libero totam ipsam soluta tempore, recusandae fugiat,
+                architecto eius sunt animi? Molestiae, iusto!</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>Glasses</h3>
+            <p id="glassesPara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quis
+                magnam. Est magnam aperiam eos dolores dolore, libero totam ipsam soluta tempore, recusandae fugiat,
+                architecto eius sunt animi? Molestiae, iusto!</p>
+        </div>
+    </div>
+</body>
+
+</html>
